@@ -1,0 +1,7 @@
+<div *ngIf="pokemon.results.length !== 0">
+    <ul>
+        <li *ngFor="let p of pokemon.results">
+            <p>{{p.name}}</p>
+        </li>
+    </ul>
+</div>
