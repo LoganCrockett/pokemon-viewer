@@ -1,0 +1,23 @@
+ul {
+    list-style: none;
+    border: 1px black solid;
+    max-width: 550px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    display: inline-block;
+    flex: 1;
+}
+
+.card {
+    border: 1px dashed black;
+    margin: 2px 5px 2px 5px;
+    text-align: center;
+    max-width: 100px;
+}

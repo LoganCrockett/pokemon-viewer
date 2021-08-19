@@ -1,6 +1,6 @@
 <div *ngIf="pokemon.results && pokemon.results.length !== 0">
     <ul>
-        <li *ngFor="let p of pokemon.results">
+        <li class="card" *ngFor="let p of pokemon.results">
             <pokemon-card [name]="p.name"></pokemon-card>
         </li>
     </ul>
