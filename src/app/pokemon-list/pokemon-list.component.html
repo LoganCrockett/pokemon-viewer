@@ -1,7 +1,7 @@
-<div *ngIf="pokemon.results.length !== 0">
+<div *ngIf="pokemon.results && pokemon.results.length !== 0">
     <ul>
         <li *ngFor="let p of pokemon.results">
-            <p>{{p.name}}</p>
+            <pokemon-card [name]="p.name"></pokemon-card>
         </li>
     </ul>
 </div>

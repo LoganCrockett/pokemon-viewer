@@ -5,11 +5,14 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class PokemonService {
-  pokemon = [];
 
   constructor(private http: HttpClient) { }
 
   getPokemon() {
     return this.http.get('https://pokeapi.co/api/v2/pokemon/');
+  }
+
+  getPokemonInformation(name: string) {
+    return this.http.get(`https://pokeapi.co/api/v2/pokemon/${name}`);
   }
 }
