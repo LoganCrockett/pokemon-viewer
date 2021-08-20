@@ -1,0 +1,13 @@
+<div>
+    <a (click)="onClick('back')" [style.pointer-events] = "currentPage === 0 ? 'none' : 'all'"><img src='assets/icons/left-arrow.png' alt="Previous Page" title="Previous Page" /></a>
+        Page {{currentPage + 1}} of {{lastPage+1}}
+    <a (click)="onClick('next')" [style.pointer-events] = "currentPage === lastPage ? 'none' : 'all'"><img src='assets/icons/right-arrow.png' alt="Next Page" title="Next Page" /></a>
+    <span>
+    Per Page:
+    <select (change)="onSelect($event)" [value]="perPage">
+        <option value="20">20</option>
+        <option value="30">30</option>
+        <option value="50">50</option>
+    </select>
+</span>
+</div>

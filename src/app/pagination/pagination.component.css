@@ -1,0 +1,16 @@
+a {
+    cursor: pointer;
+}
+
+select {
+    background-color: azure;
+    width: 50px;
+    font-size:large;
+}
+
+div {
+    background-color: lightgray;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
