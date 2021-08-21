@@ -3,7 +3,7 @@
   <div>
   <h4>Types:</h4>
     <span *ngFor="let type of pokemonInfo.types">
-      <p class="card">{{ type.type.name | uppercase }}</p>
+      <p class="card {{type.type.name}}">{{ type.type.name | uppercase }}</p>
     </span>
 </div>
 <br />

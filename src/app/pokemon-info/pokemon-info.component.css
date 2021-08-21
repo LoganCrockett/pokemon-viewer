@@ -26,7 +26,6 @@ span {
 }
 
 .card {
-    background-color: gray;
     padding: 1px;
     border: 1px solid black;
     margin: 0px 2px 0px 2px;
@@ -34,3 +33,23 @@ span {
     font-size: medium;
     font-weight: bold;
 }
+
+/* Pokemon Type Card Styling */
+.normal{background-color: darkgray;}
+.fire{background-color: orangered;}
+.water{background-color: rgb(27, 145, 255);}
+.grass{background-color: darkseagreen;}
+.electric{background-color: gold;}
+.ice{background-color: lightskyblue;}
+.fighting{background-color: rgba(165, 42, 42, 0.877);}
+.poison{background-color: darkmagenta;}
+.ground{background-color: burlywood;}
+.flying{background-color: rgba(88, 208, 255, 0.479);}
+.psychic{background-color: plum;}
+.bug{background-color: darkgoldenrod;}
+.rock{background-color: sienna;}
+.ghost{background-color: slateblue;}
+.dark{background-color: rgb(35, 58, 58);}
+.dragon{background-color: blue;}
+.steel{background-color:rgb(215,217,217);}
+.fairy{background-color: lightpink;}
