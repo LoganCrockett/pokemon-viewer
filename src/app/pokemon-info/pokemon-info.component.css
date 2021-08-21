@@ -1,0 +1,36 @@
+.center {
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    background-color: paleturquoise;
+    border: .5px solid black;
+    box-shadow:  inset 2px 2px lightslategray, inset -2px -2px lightslategray;
+}
+
+h4 {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+span {
+    display: inline-block;
+}
+
+.stats {
+    margin: 0px 4px 0px 4px;
+}
+
+.card {
+    background-color: gray;
+    padding: 1px;
+    border: 1px solid black;
+    margin: 0px 2px 0px 2px;
+    color:seashell;
+    font-size: medium;
+    font-weight: bold;
+}

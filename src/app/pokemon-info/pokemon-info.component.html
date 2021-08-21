@@ -1,0 +1,35 @@
+<div class="center">
+  <h1>{{ pokemonInfo.name | titlecase }}</h1>
+  <div>
+  <h4>Types:</h4>
+    <span *ngFor="let type of pokemonInfo.types">
+      <p class="card">{{ type.type.name | uppercase }}</p>
+    </span>
+</div>
+<br />
+  <img
+    [src]="pokemonInfo.sprites?.front_default"
+    [alt]="pokemonInfo.name | titlecase"
+  />
+  <p>Height: {{ pokemonInfo.height }} &nbsp;</p>
+  <p>Weight: {{ pokemonInfo.weight }}&nbsp;</p>
+  <p>Base Expereince: {{ pokemonInfo.base_experience }}&nbsp;</p>
+  <div>
+    <h4>Stats:</h4>
+    <div *ngFor="let stat of pokemonInfo.stats">
+      <p class="stats">
+        {{ stat.stat.name | titlecase }}: {{ stat.base_stat }}
+      </p>
+    </div>
+  </div>
+</div>
+<div>
+  <div>
+    <h4>Abilities:</h4>
+    <ul>
+        <li *ngFor="let a of pokemonInfo.abilities">
+            <p>{{ a.ability.name | uppercase }}</p>
+        </li>
+    </ul>
+  </div>
+</div>
