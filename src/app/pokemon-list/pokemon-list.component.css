@@ -15,6 +15,14 @@ li {
     flex: 1;
 }
 
+.card:hover {
+    transition: 1.5s;
+    background-color: lightgreen;
+    box-shadow: 2px 2px lightslategrey;
+    border-style: solid;
+    cursor: pointer;
+}
+
 .card {
     border: 1px dashed black;
     margin: 2px 5px 2px 5px;

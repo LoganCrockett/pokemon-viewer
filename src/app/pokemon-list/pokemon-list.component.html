@@ -1,6 +1,6 @@
 <div *ngIf="pokemon.results && pokemon.results.length !== 0">
     <ul>
-        <li class="card" *ngFor="let p of pokemon.results">
+        <li class="card" *ngFor="let p of pokemon.results" [routerLink]="['/pokemon', p.name]">
             <pokemon-card [name]="p.name"></pokemon-card>
         </li>
     </ul>
