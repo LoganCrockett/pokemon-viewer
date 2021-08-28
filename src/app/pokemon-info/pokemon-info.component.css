@@ -13,8 +13,16 @@ h4 {
     text-align: center;
 }
 
+ul {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 li {
     list-style-type: none;
+    display: inline-flex;
+    margin: 0px 4px 0px 4px;
 }
 
 span {
@@ -32,6 +40,29 @@ span {
     color:seashell;
     font-size: medium;
     font-weight: bold;
+}
+
+table {
+    display: inline;
+    border-collapse: collapse;
+    margin: 5px 3px 2px 3px;
+}
+
+tr, td, th {
+    border: 1px solid black;
+}
+
+th {
+    text-align: center;
+    background-color: lightsteelblue;
+}
+
+tr:nth-child(2n) {
+    background-color: paleturquoise;
+}
+
+tr:nth-child(2n+1) {
+    background-color: palegreen;
 }
 
 /* Pokemon Type Card Styling */

@@ -9,6 +9,7 @@ import { PaginationComponent } from './pagination/pagination.component';
 import { PokemonInfoComponent } from './pokemon-info/pokemon-info.component';
 import { AppRoutingModule } from './app-routing.module';
 import { RouterModule } from '@angular/router';
+import { AbilitiesListComponent } from './pokemon-info/abilities-list.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { RouterModule } from '@angular/router';
     PokemonListComponent,
     PokemonCardComponent,
     PaginationComponent,
-    PokemonInfoComponent
+    PokemonInfoComponent,
+    AbilitiesListComponent
   ],
   imports: [
     BrowserModule,
